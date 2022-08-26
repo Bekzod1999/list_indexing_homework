@@ -6,4 +6,14 @@ def main(list_num):
     Returns:
         int: return answer
     """
-    return
+    largestNumber = 0
+    i = 0
+    k = 0
+    while i < len(list_num):
+        if list_num[i] > k:
+            k = list_num[i]
+        i += 1
+
+    return k
+x = main([5, 9, 1, 2])
+print(x)
