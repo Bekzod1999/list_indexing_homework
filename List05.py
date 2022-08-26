@@ -7,4 +7,7 @@ def main(list1,i):
     Returns:
         list: return answer
     """
-    return
+    return list1[i]
+
+x=main([5,3,'a',1,2], 3)
+print(x)
