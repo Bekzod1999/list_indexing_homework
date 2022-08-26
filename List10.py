@@ -8,12 +8,13 @@ def main(list_num):
     """
     largestNumber = 0
     i = 0
-    k = 0
+    k = list_num[0]
     while i < len(list_num):
+        
         if list_num[i] > k:
             k = list_num[i]
         i += 1
 
     return k
-x = main([5, 9, 1, 2])
+x = main([-5, 0, -1, -4, -30])
 print(x)
